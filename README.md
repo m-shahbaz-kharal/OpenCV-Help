@@ -1,6 +1,6 @@
 # OpenCV-Help
 Tutorials for working with OpenCV
-# Compiling OpenCV with Contrib for Windows
+# 1 - Compiling OpenCV with Contrib for Windows
 * Download sources for OpenCV 4.1.1 and the OpenCV Contrib 4.1.1 Module. (link: https://github.com/opencv)
 * Download and Install CMake (I used 3.16.2)
 * Download and Install MinGW (I used mingw-get version 0.6.3 to install mingw).

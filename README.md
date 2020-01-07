@@ -37,5 +37,13 @@ Tutorials for working with OpenCV
  * Select number of images you want to use for calibraion.
  * Press Calibrate button at the bottom and move your camera around to capture imaages of the checker-board from different angles/orientations and positions.
  * Once done it will get you to the results page.
- * Download [this](http:)
- 
+ * Download [this](calibration_template.xml)
+ * Open in some editor.
+ * Now type values from "Vizario.Cam" results page to XML file.
+  * Copy K values (results page of app) to CameraMatrixValues tags. (each ArrayOfDouble in XML is a row in K matrix of result page)
+  * Copy Distortion values to XML DistCoeffsValues.
+  * Copy Error value to ReprojectionErrors tag.
+  * Copy Resolution values to ImageHeights and Image Widths tags.
+  * Save the XML file.
+  * You can now use this XML file as calibration file for your OpenCV project.
+  * :D

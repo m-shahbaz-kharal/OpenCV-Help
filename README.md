@@ -23,7 +23,7 @@ Tutorials for working with OpenCV
 * Once done. Navigate to your build directory (in your CMD or PowerShell).
 * Type “cmake.exe --build . --config Debug --target INSTALL” and press enter. Now wait as this is going to take about half an hour.
 * Done. :D
-# 2 - How to compute calibration matrix for mobile easily.
+# 2 - How to Compute Calibration Matrix for Android Phone Camera easily.
 * Download an android app called Vizario.cam (link: https://play.google.com/store/apps/details?id=io.ar4.vizarcam&hl=en)
 * Open it.
   * Select Camera for which you want to compute calibration.
@@ -37,7 +37,7 @@ Tutorials for working with OpenCV
   * Select number of images you want to use for calibraion.
   * Press Calibrate button at the bottom and move your camera around to capture imaages of the checker-board from different angles/orientations and positions.
 * Once done it will get you to the results page.
-* Download [this XML file](calibration_template.xml)
+* Download [this XML file](calibration_template.xml).
 * Open in some editor.
 * Now type values from "Vizario.Cam" results page to XML file.
   * Copy K values (results page of app) to CameraMatrixValues tags. (each ArrayOfDouble in XML is a row in K matrix of result page)
@@ -46,4 +46,4 @@ Tutorials for working with OpenCV
   * Copy Resolution values to ImageHeights and Image Widths tags.
   * Save the XML file.
   * You can now use this XML file as calibration file for your OpenCV project.
-  * :D
+* :D

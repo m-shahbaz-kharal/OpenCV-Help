@@ -23,7 +23,7 @@ Tutorials for working with OpenCV
 * Once done. Navigate to your build directory (in your CMD or PowerShell).
 * Type “cmake.exe --build . --config Debug --target INSTALL” and press enter. Now wait as this is going to take about half an hour.
 * Done. :D
-# 2 - How to Compute Calibration Matrix for Android Phone Camera easily.
+# 2 - Computing Calibration Matrix for Android Phone Camera easily.
 * Download an android app called Vizario.cam (link: https://play.google.com/store/apps/details?id=io.ar4.vizarcam&hl=en)
 * Open it.
   * Select Camera for which you want to compute calibration.
